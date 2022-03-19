@@ -1,0 +1,29 @@
+Default-initialize lab_07::vector<std::string>
+Default-copy-initialize
+Constructor from size_t is explicit
+Constructor from (size_t, T) is implicit (since C++11)
+Construct empty
+Construct zero elements
+Construct n elements and read
+Construct n copies elements and read
+push_back moves
+push_back copies
+Copy-construct
+Copy-assign
+Move-construct
+Move-assign
+Elements are consecutive
+Write to non-const
+Read from const
+reserve
+pop_back
+pop_back with push_back
+clear
+resize default constructible
+resize with copy
+push_back copy keeps strong exception safety even for capacity when reallocating
+resize keeps strong exception safety even for capacity when reallocating
+copy assignment keeps strong exception safety
+operator[] and at() have lvalue/rvalue overloads
+new elements are value-initialized
+custom allocator is used by lab_07::vector<std::string>
